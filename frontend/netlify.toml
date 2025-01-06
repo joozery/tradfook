@@ -1,4 +1,4 @@
 [build]
   base = "frontend"
-  publish = "frontend/build"  # หรือ frontend/dist ตามโครงสร้างโปรเจกต์
+  publish = "frontend/build"
   command = "npm run build"
