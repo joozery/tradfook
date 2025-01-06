@@ -1,0 +1,9 @@
+[build]
+  base = "frontend" # โฟลเดอร์หลักของโปรเจกต์ (ปรับให้ตรงกับโครงสร้างโปรเจกต์ของคุณ)
+  publish = "frontend/build" # โฟลเดอร์ที่ใช้สำหรับการ Deploy (สำหรับ React หรือ Create React App)
+  command = "npm run build" # คำสั่งสำหรับการ Build โปรเจกต์
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
